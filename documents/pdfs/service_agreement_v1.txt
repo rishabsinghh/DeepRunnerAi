@@ -1,0 +1,43 @@
+
+SERVICE AGREEMENT
+
+Contract ID: SA-2024-001
+Version: 1.0
+Effective Date: January 1, 2024
+Expiration Date: December 31, 2024
+
+PARTIES:
+Client: TechCorp Solutions
+Address: 123 Main St, New York, NY 10001
+Contact: John Smith, CEO
+Email: john.smith@techcorp.com
+
+Service Provider: Global Industries Ltd
+Address: 789 Corporate Blvd, Los Angeles, CA 90210
+Contact: Sarah Johnson, VP Operations
+Email: s.johnson@globalindustries.com
+
+SCOPE OF SERVICES:
+The Service Provider agrees to provide comprehensive IT consulting services including:
+- System architecture design
+- Implementation support
+- 24/7 technical support
+- Monthly reporting
+
+TERMS AND CONDITIONS:
+1. Payment Terms: Net 30 days
+2. Service Level Agreement: 99.9% uptime guarantee
+3. Confidentiality: Both parties agree to maintain strict confidentiality
+4. Termination: Either party may terminate with 30 days written notice
+5. Governing Law: State of New York
+
+COMPENSATION:
+Monthly retainer: $15,000
+Additional services: $150/hour
+Maximum monthly cap: $25,000
+
+SIGNATURES:
+Client: _________________ Date: _________
+Service Provider: _________________ Date: _________
+
+This agreement shall be binding upon execution by both parties.

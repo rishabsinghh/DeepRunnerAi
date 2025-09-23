@@ -1,0 +1,42 @@
+
+NON-DISCLOSURE AGREEMENT
+
+Contract ID: NDA-2024-004
+Effective Date: April 1, 2024
+Expiration Date: April 1, 2026
+
+DISCLOSING PARTY: TechCorp Solutions
+Address: 456 Business Ave, New York, NY 10002
+Contact: John Smith, CEO
+
+RECEIVING PARTY: Innovation Partners
+Address: 555 Tech Street, San Francisco, CA 94105
+Contact: Michael Chen, CTO
+
+PURPOSE:
+The parties wish to explore potential business opportunities and may share confidential information.
+
+CONFIDENTIAL INFORMATION:
+Includes but not limited to:
+- Technical specifications and designs
+- Business plans and strategies
+- Financial information
+- Customer lists and data
+- Proprietary processes and methods
+
+OBLIGATIONS:
+The Receiving Party agrees to:
+1. Hold all Confidential Information in strict confidence
+2. Use Confidential Information solely for the stated purpose
+3. Not disclose to third parties without written consent
+4. Return or destroy all materials upon request
+
+TERM:
+This agreement shall remain in effect for 2 years from the effective date.
+
+GOVERNING LAW:
+This agreement shall be governed by the laws of California.
+
+SIGNATURES:
+Disclosing Party: _________________ Date: _________
+Receiving Party: _________________ Date: _________

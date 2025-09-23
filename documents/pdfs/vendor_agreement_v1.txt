@@ -1,0 +1,44 @@
+
+VENDOR SERVICES AGREEMENT
+
+Contract ID: VSA-2024-005
+Effective Date: May 1, 2024
+Expiration Date: May 1, 2025
+
+VENDOR: Global Industries Ltd
+Address: 321 Enterprise Way, Los Angeles, CA 90211
+Contact: Sarah Johnson, VP Operations
+Tax ID: 12-3456789
+
+CUSTOMER: Digital Dynamics Inc
+Address: 888 Innovation Drive, Austin, TX 73301
+Contact: Lisa Rodriguez, Procurement Manager
+
+SERVICES:
+The Vendor shall provide:
+1. Office supplies and equipment
+2. IT hardware and software
+3. Maintenance and support services
+4. Delivery and installation
+
+PRICING:
+- Office Supplies: 15% discount from retail
+- IT Equipment: 20% discount from MSRP
+- Services: $125/hour
+- Delivery: Free for orders over $500
+
+PAYMENT TERMS:
+Net 30 days from invoice date
+Late payment fee: 1.5% per month
+
+QUALITY STANDARDS:
+All products must meet industry standards
+Warranty: 1 year on all products
+Support: 8x5 technical support
+
+TERMINATION:
+Either party may terminate with 60 days written notice.
+
+SIGNATURES:
+Vendor: _________________ Date: _________
+Customer: _________________ Date: _________

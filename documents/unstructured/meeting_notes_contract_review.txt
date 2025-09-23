@@ -1,0 +1,29 @@
+
+Contract Review Meeting - Jan 15, 2024
+
+Attendees: Legal team, Procurement, IT dept
+
+Quick notes from the meeting:
+
+- Need to review all contracts expiring this year
+- Some contracts have conflicting info (addresses, dates)
+- TechCorp contract needs renewal decision by Nov
+- Global Industries contract has performance issues
+- New vendor evaluation process started
+
+Action items:
+- Sarah to check address discrepancies
+- Mike to prepare renewal recommendations
+- Lisa to start vendor search process
+
+Issues found:
+- Contract SA-2024-001 has wrong address for TechCorp
+- Some contracts missing metadata
+- Expiration dates not consistent across versions
+
+Next meeting: Feb 15, 2024
+
+Random thoughts:
+- Should we implement automated contract monitoring?
+- Need better version control for contract documents
+- Consider using AI for contract analysis

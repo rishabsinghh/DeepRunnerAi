@@ -1,0 +1,45 @@
+
+CONSULTING SERVICES AGREEMENT
+
+Contract ID: CSA-2024-003
+Effective Date: March 1, 2024
+Expiration Date: October 14, 2025
+
+CONSULTANT: Future Systems LLC
+Address: 777 Business Park, Chicago, IL 60601
+Contact: David Wilson, Principal Consultant
+Phone: (312) 555-0123
+
+CLIENT: Smart Technologies Corp
+Address: 999 Corporate Plaza, Boston, MA 02101
+Contact: Jennifer Lee, VP Engineering
+Phone: (617) 555-0456
+
+SCOPE OF WORK:
+The Consultant shall provide the following services:
+1. Technology assessment and recommendations
+2. Process optimization consulting
+3. Team training and development
+4. Implementation planning and oversight
+
+DELIVERABLES:
+- Comprehensive assessment report (due within 30 days)
+- Process improvement recommendations
+- Training materials and sessions
+- Implementation roadmap
+
+COMPENSATION:
+Project Fee: $75,000 (fixed price)
+Expenses: Reimbursed up to $5,000
+Payment Schedule: 50% upon contract execution, 50% upon completion
+
+TERMINATION:
+Either party may terminate this agreement with 15 days written notice.
+Upon termination, Consultant shall be paid for work completed to date.
+
+CONFIDENTIALITY:
+All information exchanged shall be treated as confidential and proprietary.
+
+SIGNATURES:
+Consultant: _________________ Date: _________
+Client: _________________ Date: _________

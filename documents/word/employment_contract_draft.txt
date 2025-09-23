@@ -1,0 +1,27 @@
+EMPLOYMENT AGREEMENT
+
+Employee Information
+Name: Alex Thompson
+Position: Senior Software Engineer
+Department: Engineering
+Start Date: June 1, 2024
+Employee ID: EMP-2024-001
+
+Company Information
+Company: Smart Technologies Corp
+Address: 999 Corporate Plaza, Boston, MA 02101
+Contact: Jennifer Lee, VP Engineering
+
+Compensation
+Base Salary: $120,000 annually
+Bonus: Up to 20% based on performance
+Benefits: Health, dental, vision, 401k matching
+Vacation: 20 days annually
+
+Terms and Conditions
+Employment Type: Full-time, at-will
+Probation Period: 90 days
+Confidentiality: Required per company policy
+Non-compete: 12 months after termination
+Notice Period: 2 weeks for resignation
+

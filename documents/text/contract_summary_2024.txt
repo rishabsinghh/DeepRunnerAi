@@ -1,0 +1,26 @@
+
+CONTRACT PORTFOLIO SUMMARY - 2024
+
+ACTIVE CONTRACTS (12):
+1. Service Agreement SA-2024-001 - TechCorp Solutions - $15,000/month
+2. Software License SLA-2024-002 - Innovation Partners - $50,000/year
+3. Consulting Contract CSA-2024-003 - Future Systems LLC - $75,000 project
+4. NDA Agreement NDA-2024-004 - Innovation Partners - No cost
+5. Vendor Agreement VSA-2024-005 - Global Industries Ltd - Variable
+6. Employment Contract EMP-2024-001 - Alex Thompson - $120,000/year
+
+EXPIRING SOON (Next 30 days):
+- Consulting Contract CSA-2024-003 (expires in 25 days)
+- Software License SLA-2024-002 (expires in 15 days)
+
+RENEWALS PENDING:
+- Service Agreement SA-2024-001 (renewal decision due by Nov 30)
+- Vendor Agreement VSA-2024-005 (renewal decision due by Dec 15)
+
+CONFLICTS IDENTIFIED:
+1. TechCorp Solutions has different addresses in contracts SA-2024-001 and NDA-2024-004
+2. Global Industries Ltd address inconsistency between VSA-2024-005 and other contracts
+3. Contract SLA-2024-002 has conflicting expiration dates in different versions
+
+TOTAL CONTRACT VALUE: $1,250,000 annually
+RISK LEVEL: Medium (2 contracts expiring soon, 3 conflicts identified)
