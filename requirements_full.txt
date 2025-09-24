@@ -37,11 +37,18 @@ tiktoken==0.11.0
 # Vector Database
 chromadb==1.1.0
 
+# MCP (Model Context Protocol) Integration
+mcp==0.1.0
+jsonrpc-requests==0.4.0
+aiohttp==3.9.1
+websockets==12.0
+
 # Additional Dependencies (installed automatically)
 # - All required sub-dependencies for the above packages
 # - ChromaDB dependencies (onnxruntime, grpcio, etc.)
 # - LangChain dependencies (pydantic, sqlalchemy, etc.)
 # - Streamlit dependencies (altair, pillow, etc.)
+# - MCP dependencies (asyncio, typing-extensions, etc.)
 
 
 
