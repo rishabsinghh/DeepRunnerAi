@@ -12,6 +12,7 @@ A comprehensive AI-powered system for automated contract management, analysis, a
 - **Document Similarity**: Advanced similarity detection and clustering
 - **Conflict Detection**: Identifies inconsistencies across contracts
 - **Email Reporting**: Automated daily reports via email
+- **MCP Integration**: Model Context Protocol for AI agent communication and automation
 
 ### Key Capabilities
 - ✅ **Contract Expiration Monitoring**: Tracks approaching expiration dates
@@ -21,6 +22,9 @@ A comprehensive AI-powered system for automated contract management, analysis, a
 - ✅ **Automated Alerts**: Daily email reports with actionable insights
 - ✅ **Interactive Chatbot**: Natural language query interface
 - ✅ **Document Clustering**: Groups similar contracts for analysis
+- ✅ **MCP AI Agent Integration**: External AI tools can interact with the system
+- ✅ **Workflow Automation**: Multi-step automated contract processing
+- ✅ **Standardized API**: JSON-RPC protocol for consistent communication
 
 ## 📁 Project Structure
 
@@ -45,6 +49,14 @@ DeepRunnerAi/
 │   ├── word/                 # Word documents
 │   ├── text/                 # Text files
 │   └── unstructured/         # Unstructured documents
+├── mcp_server.py              # MCP server implementation
+├── mcp_client.py              # MCP client for AI tools
+├── mcp_integration.py         # Workflow engine and orchestrator
+├── mcp_config.py              # MCP configuration management
+├── mcp_examples.py            # MCP usage examples
+├── test_mcp_integration.py    # MCP integration tests
+├── MCP_INTEGRATION.md         # MCP integration documentation
+├── MCP_INTEGRATION_SUMMARY.md # MCP integration summary
 └── README.md                 # This file
 ```
 
@@ -102,6 +114,100 @@ DeepRunnerAi/
    ```bash
    python demo.py
    ```
+
+## 🤖 MCP Integration
+
+The CLM system now includes **Model Context Protocol (MCP)** integration, enabling AI agents to interact with contract management tools through a standardized interface.
+
+### MCP Features
+
+- **AI Agent Communication**: External AI tools can interact with your CLM system
+- **Workflow Automation**: Multi-step automated contract processing
+- **Standardized Interface**: JSON-RPC protocol for consistent communication
+- **Tool-based Architecture**: Modular design for easy extension
+
+### Available MCP Tools
+
+| Tool | Description | Use Case |
+|------|-------------|----------|
+| `process_documents` | Process and index contract documents | Document ingestion |
+| `ask_question` | Ask questions about contracts using RAG | AI-powered queries |
+| `find_similar_documents` | Find documents similar to a given document | Document clustering |
+| `search_documents` | Search documents by content | Content discovery |
+| `run_daily_analysis` | Run daily contract analysis and generate report | Automated monitoring |
+| `get_system_status` | Get current system status and statistics | Health monitoring |
+| `generate_report` | Generate comprehensive system report | Reporting |
+| `detect_conflicts` | Detect conflicts in contract documents | Conflict analysis |
+| `find_expiring_contracts` | Find contracts expiring within specified days | Expiration monitoring |
+
+### MCP Usage Examples
+
+#### Basic MCP Client Usage
+```python
+from mcp_client import CLMMCPClient
+import asyncio
+
+async def main():
+    client = CLMMCPClient()
+    await client.start_server()
+    
+    # Ask a question about contracts
+    result = await client.ask_question("What contracts are expiring soon?")
+    print(f"Answer: {result['answer']}")
+    
+    await client.stop_server()
+
+asyncio.run(main())
+```
+
+#### AI Agent Integration
+```python
+from mcp_client import CLMAIAgent
+
+async def main():
+    agent = CLMAIAgent(CLMMCPClient())
+    await agent.initialize()
+    
+    # Analyze contracts
+    analysis = await agent.analyze_contracts("conflicts")
+    print(f"Found {analysis.get('count', 0)} conflicts")
+    
+    await agent.shutdown()
+
+asyncio.run(main())
+```
+
+#### Workflow Automation
+```python
+from mcp_integration import CLMAutomationOrchestrator
+
+async def main():
+    orchestrator = CLMAutomationOrchestrator()
+    await orchestrator.initialize()
+    
+    # Run daily automation
+    result = await orchestrator.run_daily_automation()
+    print(f"Status: {result['workflow_result']['status']}")
+    
+    await orchestrator.shutdown()
+
+asyncio.run(main())
+```
+
+### MCP Testing
+
+```bash
+# Test MCP integration
+python test_mcp_integration.py
+
+# Run MCP examples
+python mcp_examples.py
+
+# Start MCP server
+python mcp_server.py
+```
+
+For detailed MCP documentation, see [MCP_INTEGRATION.md](MCP_INTEGRATION.md).
 
 ## 🚀 Usage
 
@@ -189,6 +295,15 @@ graph TB
     I[Configuration] --> A
     I --> C
     I --> F
+    
+    %% MCP Integration
+    J[MCP Server] --> K[AI Agents]
+    J --> L[External Tools]
+    J --> M[Workflow Engine]
+    B --> J
+    C --> J
+    F --> J
+    E --> J
 ```
 
 ### Data Flow
@@ -198,6 +313,7 @@ graph TB
 3. **Daily Agent**: Automatically analyzes contracts for expirations and conflicts
 4. **Similarity Detection**: Uses TF-IDF and cosine similarity for document comparison
 5. **Web Interface**: Provides interactive access to all system features
+6. **MCP Integration**: Enables AI agents to interact with all system components through standardized tools
 
 ## 🔧 Configuration
 
@@ -213,6 +329,17 @@ graph TB
 | `REPORT_RECIPIENT` | Daily report recipient | admin@company.com |
 | `CHROMA_PERSIST_DIRECTORY` | Vector database directory | ./chroma_db |
 | `LOG_LEVEL` | Logging level | INFO |
+
+### MCP Configuration
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `MCP_HOST` | MCP server host | localhost |
+| `MCP_PORT` | MCP server port | 8080 |
+| `MCP_TRANSPORT` | MCP transport type | stdio |
+| `MCP_LOG_LEVEL` | MCP logging level | INFO |
+| `MCP_ENABLE_AUTH` | Enable MCP authentication | false |
+| `MCP_API_KEY` | MCP API key (if auth enabled) | "" |
 
 ### Document Processing Settings
 
@@ -409,6 +536,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Streamlit**: For web interface framework
 - **OpenAI**: For AI-powered text generation
 - **scikit-learn**: For similarity detection algorithms
+- **Model Context Protocol (MCP)**: For AI agent integration and standardization
 - **DeepRunnerAi Team**: For the comprehensive CLM automation system
 
 ## 📞 Support
